@@ -399,7 +399,7 @@ header{
     border-left: 1px solid #3c4043;
     padding-left: 20px;
     padding-bottom: 20px;
-    width: 336px;
+    width: 376px;
 }
 .side-heading{
     font-size: 18px;
@@ -408,9 +408,9 @@ header{
     padding: 28px 16px 16px;
 }
 .whole-page-card{
-    width: 336px;
+    width: 376px;
     padding-top: 8px;
-    margin: 0 16px 16px;
+    /* margin: 0 16px 16px; */
 }
 .card-link{
     border: 1px solid #3c4043;
@@ -443,5 +443,17 @@ header{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
+.card-p{
+    padding-left: 16px;
+    line-height: 1.58;
+    color: #bdc1c6
+}
+a.fl{
+    color: #8ab4f8;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(255,255,255,.1);
+}
+.card-title{
+    font-weight: bolder;
+}
 
