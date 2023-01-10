@@ -369,9 +369,6 @@ header{
 .divider-line{
     background: #3c4043;
     height: 1px;
-    left: 0;
-    position: absolute;
-    right: 0;
 }
 .results{
     display: flex;
@@ -417,7 +414,7 @@ header{
     border-radius: 16px;
     color: #bdc1c6;
     display: inline-flex;
-    margin: 0;
+    margin-left: 16px;
     padding: 3px 12px;
     align-items: center;
     -webkit-box-align: center;
@@ -446,7 +443,8 @@ header{
 .card-p{
     padding-left: 16px;
     line-height: 1.58;
-    color: #bdc1c6
+    color: #bdc1c6;
+    font-size: 14px;
 }
 a.fl{
     color: #8ab4f8;
@@ -456,4 +454,13 @@ a.fl{
 .card-title{
     font-weight: bolder;
 }
-
+.card-feedback{
+    display: flex;
+    justify-content: space-between;
+}
+.smaller{
+    color: #9aa0a6;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 24px 0;
+}
