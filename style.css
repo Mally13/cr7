@@ -660,6 +660,7 @@ details[open].top-ask-question> summary>.open-arrow {
 }
 .citation span{
     color: #969ba1;
+    
 }
 .top-answer{
     padding-bottom: 16px;
@@ -671,6 +672,80 @@ details[open].top-ask-question> summary>.open-arrow {
     margin-top: -3px;
     word-wrap: break-word;
 }
+.bottom-line{
+    display: flex;
+    width: 100%;
+}
+
+.bottom-line .divider-line{
+    width: 94%;
+}
+.bottom-line a{
+    align-items: center;
+    color: #9aa0a6;
+    display: flex;
+    font-size: 12px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    padding: 3px 0 3px 3px;
+    margin-top: -10px;
+}
+.top-results-wrapper{
+    margin: 0 16px 44px 16px;
+    position: relative;
+    overflow: visible;
+    justify-content: center;
+}
+.top-results{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 8px 16px;
+}
+.top-result{
+    width: 600px;
+    margin: 0px 0px 30px;
+
+}
+.top-result-heading{
+    color: #bdc1c6;
+    line-height: 1.58;
+    text-align: left;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+
+}
+.more-links{
+    color: #9aa0a6;
+    line-height: 1.58;
+    text-align: left;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.citation.top-result-cite{
+    display: flex;
+}
+.citation.top-result-cite span .more-info{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.citation.citation.top-result-cite span{
+    display: flex;
+
+}
+.more-info div{
+    height: 18px;
+    line-height: 18px;
+    width: 18px;
+    color: #9aa0a6;
+    fill: #9aa0a6;
+}
+.top-result .top-answer-site h3{
+    margin-top: 3px;
+}
+
 
 
 
